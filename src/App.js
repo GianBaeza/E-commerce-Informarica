@@ -7,7 +7,7 @@ function App(){
         <body className="#">
             
             <Navbar/>
-            <ItemListContainer greeting={'Bienvenidos a la web (Alumno : Gian Franco Baeza' }/>
+            <ItemListContainer greeting={'Bienvenidos a la web (Alumno : Gian Franco Baeza)' }/>
 
         </body>
            
