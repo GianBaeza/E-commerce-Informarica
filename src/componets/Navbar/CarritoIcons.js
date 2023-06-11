@@ -1,6 +1,6 @@
 function CarritoIcons(){
     return(
-        <i class="bi bi-cart2">{4}</i>
+        <i className="bi bi-cart2">{4}</i>
     )
 }
 

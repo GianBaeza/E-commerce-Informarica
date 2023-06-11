@@ -1,0 +1,39 @@
+.NavContainer {
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 2px solid #f1f1f1;
+    }
+    
+    .Logo img {
+    height: 50px;
+    width: auto;
+    }
+    
+    .NavList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .List {
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    }
+    
+    .List:hover {
+    border-bottom: 3px solid #333;
+    }
+    
+    .CarritoIcons {
+    height: 30px;
+    width: auto;
+    }
