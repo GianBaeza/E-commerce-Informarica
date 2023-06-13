@@ -3,24 +3,24 @@ import ItemListContainer from "./componets/ItemListContainer/ItemListContainer";
 
 
 function App(){
-    return(
-        <body>
-            <header>
-              <Navbar/>
-            </header>
+  return(
+    <body>
+      <header>
+        <Navbar/>
+      </header>
             
-            <section>
-              <ItemListContainer greeting={'Bienvenidos a GB' }/>
-            </section>
+      <section>
+        <ItemListContainer greeting={'Bienvenidos a GB' }/>
+      </section>
 
 
-            <footer>
+      <footer>
                 
-            </footer>
+      </footer>
 
-        </body>
+    </body>
            
-    )
+  )
 }
 
 export default App;
