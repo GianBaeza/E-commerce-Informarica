@@ -1,8 +1,10 @@
+
+
 const ItemListContainer = ({greeting}) =>{
     return(
-        <div>
-            <h1>{greeting}</h1>
-        </div>
+        <section className="Containter-h1">
+            <h1 className="h1-Title">{greeting}</h1>
+        </section>
     )
     
     

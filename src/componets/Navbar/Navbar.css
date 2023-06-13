@@ -1,39 +1,103 @@
 .NavContainer {
-    background-color: #fff;
-    height: 80px;
+    background-color: #778c9e;
+    padding: 20px;
+    height: 60px;
+    
+  }
+  
+  .Nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
-    border-bottom: 2px solid #f1f1f1;
-    }
+    align-items: center;
+  }
+  .divlogo{
+    margin-bottom: 70px;
+  }
+  
+  .Logo img {
+    background-color: #33333300;
+    height: 150px;
+    margin-top:0,5px;
+    position: absolute;
+	  text-align:center;
     
-    .Logo img {
-    height: 50px;
-    width: auto;
-    }
     
-    .NavList {
+  }
+  
+  
+  .NavList {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
-    }
-    
-    .List {
-    color: #333;
-    font-size: 18px;
+  }
+  
+  .NavList li {
+    margin: 0 10px;
+  }
+  
+  .NavList a {
     text-decoration: none;
-    margin: 0 20px;
-    border-bottom: 3px solid transparent;
-    transition: all 0.3s ease;
-    }
+    color: #333;
+    font-weight: bold;
+  }
+  .NavList a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    background-color: #778c9e;
+    border-radius: 10px;
+    display: block;
+    overflow: none;
     
-    .List:hover {
-    border-bottom: 3px solid #333;
-    }
+  }
+  
+  .dropdown-content ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-content li {
+    padding: 10px;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    text-decoration: none;
     
-    .CarritoIcons {
-    height: 30px;
-    width: auto;
-    }
+  }
+  .dropdown-content a:hover {
+    color: #fffdfd;
+    text-decoration: none;
+    
+  }
+  
+  .List {
+    display: block;
+    padding: 10px;
+  }
+  
+  .CarritoIcons {
+    /* Estilos para el icono del carrito */
+  }
+
+
+
+
+ 
