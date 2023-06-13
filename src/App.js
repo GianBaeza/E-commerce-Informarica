@@ -4,10 +4,19 @@ import ItemListContainer from "./componets/ItemListContainer/ItemListContainer";
 
 function App(){
     return(
-        <body className="#">
+        <body>
+            <header>
+              <Navbar/>
+            </header>
             
-            <Navbar/>
-            <ItemListContainer greeting={'Bienvenidos a la web (Alumno : Gian Franco Baeza)' }/>
+            <section>
+              <ItemListContainer greeting={'Bienvenidos a GB' }/>
+            </section>
+
+
+            <footer>
+                
+            </footer>
 
         </body>
            
