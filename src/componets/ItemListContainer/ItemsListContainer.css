@@ -1,0 +1,9 @@
+.Title-S{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+.Title-S:hover{
+    color: #164f75;
+    transition: 1s;
+}

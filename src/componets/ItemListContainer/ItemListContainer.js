@@ -1,3 +1,4 @@
+import'./ItemsListContainer.css';
 
 const ItemListContainer = ({greeting}) =>{
     return(

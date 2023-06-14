@@ -1,25 +1,23 @@
 import Navbar from "./componets/Navbar/Navbar";
 import ItemListContainer from "./componets/ItemListContainer/ItemListContainer";
+import './App.css';
+
 
 
 function App(){
   return(
-    <body>
-      <header>
-        <Navbar/>
-      </header>
-            
-      <section>
-        <ItemListContainer greeting={'Bienvenidos a GB' }/>
-      </section>
+    <div className="App">
+      
+      <Navbar/>
+    
+      <ItemListContainer greeting={'Bienvenidos a GB' }/>
+      
 
 
-      <footer>
-                
-      </footer>
-
-    </body>
-           
+     
+    </div>
+    
+     
   )
 }
 
