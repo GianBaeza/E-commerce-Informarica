@@ -1,6 +1,7 @@
+import './App.css';
 import Navbar from "./componets/Navbar/Navbar";
 import ItemListContainer from "./componets/ItemListContainer/ItemListContainer";
-import './App.css';
+import ItemCount from './componets/ItemCount/ItemCount';
 
 
 
@@ -11,6 +12,7 @@ function App(){
       <Navbar/>
     
       <ItemListContainer greeting={'Bienvenidos a GB' }/>
+      <ItemCount initial={1} stock={5} onAdd={(quantity) => console.log('Cantidad agregada', quantity)}/>
       
 
 

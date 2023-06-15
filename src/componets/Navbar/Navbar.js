@@ -37,9 +37,9 @@ function Navbar(){
                     <li className="NavList">
 
 
-                        <div class="dropdown">
+                        <div className="dropdown">
                          <a className="List" href="">Productos</a>
-                            <div class="dropdown-content">
+                            <div className="dropdown-content">
                                <ul>
                                    <li className="NavList">
 
