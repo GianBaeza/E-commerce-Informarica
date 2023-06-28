@@ -1,12 +1,13 @@
 
 import ItemCount from '../ItemCount/ItemCount';
+import './Item.css'
 
 // Que es lo que la card va a mostrar
 
 const item = ({id, name, img, price, stock, description}) =>{
     return(
 
-         <article className='CardItem'>
+        <article className='CardItem'>
 
             <header className='Header'>
                 <h2 className='ItemHeader'>
@@ -19,8 +20,8 @@ const item = ({id, name, img, price, stock, description}) =>{
                 <img src= {img} alt= {name} className='ItemImg'></img>
             </picture>
 
-            <section>
-                <h3 className='info'>
+            <section className='ItemInfo'>
+                <h3 className='infoH3'>
                     {description}
                 </h3>
                 <p className='Info'>
@@ -33,11 +34,11 @@ const item = ({id, name, img, price, stock, description}) =>{
 
             <footer className='ItemFooter'>
                 <button className='Option'>Ver Detalles</button>
-                
+                <ItemCount initial={1} stock={5} onAdd={(quantity) => console.log('Cantidad agregada', quantity)}/>
             </footer>
             
 
-         </article>
+        </article>
     )
 }
 

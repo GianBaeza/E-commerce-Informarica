@@ -1,0 +1,35 @@
+.CardItem {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    background-color: rgb(207, 117, 0);
+}
+
+
+.ItemImg img {
+    height: 200px;
+}
+
+.ItemInfo {
+    text-align: center;
+}
+
+.ItemFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Option {
+    background-color: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ItemCount {
+    display: inline-block;
+}
