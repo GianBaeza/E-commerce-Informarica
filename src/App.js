@@ -11,7 +11,7 @@ function App(){
       
       <Navbar/>
     
-      <ItemListContainer greeting={'Bienvenidos a GB'}/>
+      <ItemListContainer greeting={'Bienvenidos a LG'}/>
       
      
     </div>
