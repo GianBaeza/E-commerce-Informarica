@@ -2,8 +2,13 @@
     width: 100%;
     font-size: 30px;
     text-align: center;
+    color: rgb(250, 250, 250);
+   
 }
-.Title-S:hover{
-    color: #164f75;
-    transition: 1s;
+.Title{
+    color: black;
+    padding: 20px ;
+    margin: auto;
+    font-family: 'Geologica', sans-serif;
+     
 }

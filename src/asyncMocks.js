@@ -1,7 +1,7 @@
 const products = [
     {
         id : '1',
-        name: 'Logitech G PRO X SUPERLIGHT',
+        name: 'G PRO X Superlight',
         price: 73.099,
         category: 'Mouse',
         img:'https://i.postimg.cc/vT1jrQ0H/Imagen-1.png',
