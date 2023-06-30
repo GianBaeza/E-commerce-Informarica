@@ -8,10 +8,12 @@ import ItemCount from './componets/ItemCount/ItemCount';
 function App(){
   return(
     <div className="App">
-      
+
       <Navbar/>
-    
+      
       <ItemListContainer greeting={'Bienvenidos a LG'}/>
+    
+      
       
      
     </div>

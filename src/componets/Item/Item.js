@@ -22,19 +22,25 @@ const item = ({id, name, img, price, stock, description}) =>{
                 </picture>
 
                 <section className='ItemInfo'>
+
                     <p className='Info'>
                       Precio: ${price}
                     </p>
                     <p className='Info2'>
                        Stock disponible: {stock} 
                     </p>
+
+                    <div className='Info3'>
+
+                        <button className='Option'>Detalles </button>
+
+                        <ItemCount initial={1} stock={13} onAdd={(quantity) => console.log('Cantidad agregada', quantity)}/>
+                    </div>
                 </section>
 
-                <footer className='ItemFooter'>
-                    <button className='Option'>Detalles </button>
-
-                    <ItemCount initial={1} stock={13} onAdd={(quantity) => console.log('Cantidad agregada', quantity)}/>
-                </footer>
+                
+                    
+                
             </div>
             
 

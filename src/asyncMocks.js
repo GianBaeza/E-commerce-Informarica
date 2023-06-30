@@ -12,7 +12,7 @@ const products = [
 
     {
         id:'2',
-        name:'Logitech G203 Lightsync',
+        name:'Logitech G203',
         price: 15.999,
         category: 'Mouse',
         img:'https://i.postimg.cc/QdpzJNr0/imagen-2.png',

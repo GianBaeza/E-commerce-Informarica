@@ -6,8 +6,13 @@ import './ItemList.css'
 const ItemList = ({products}) =>{
     return(
         <div className='ListGroup'>
+            <h2 className='h2M'> Mouse </h2>
 
-            {products.map(prod => <Item key={prod.id} {...prod}/>)}
+            
+            <section className='Group'> 
+
+                {products.map(prod => <Item key={prod.id} {...prod}/>)}
+            </section>
 
         </div>
     )
