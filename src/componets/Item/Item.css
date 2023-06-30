@@ -98,6 +98,7 @@ header{
 .Option{
     background-color: rgba(6, 15, 43, 0.342);
     width: 70px;
+    height: 25px;
     margin: auto;
     border-radius: 10px;
     border-color: black;

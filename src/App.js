@@ -10,9 +10,14 @@ function App(){
     <div className="App">
 
       <Navbar/>
+
+
+      <section className='Section1'>
+        <ItemListContainer greeting={'Bienvenidos a LG'}/>
+        
+      </section>
+      <ItemCount initial={1}  stock={10} onAdd={(quantity) => console.log('cantidad agregada', quantity)}/>
       
-      <ItemListContainer greeting={'Bienvenidos a LG'}/>
-    
       
       
      

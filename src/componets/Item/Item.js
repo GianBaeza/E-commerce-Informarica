@@ -34,7 +34,7 @@ const item = ({id, name, img, price, stock, description}) =>{
 
                         <button className='Option'>Detalles </button>
 
-                        <ItemCount initial={1} stock={13} onAdd={(quantity) => console.log('Cantidad agregada', quantity)}/>
+                    
                     </div>
                 </section>
 
