@@ -35,7 +35,7 @@
 
 
 .ImgDetail{
-    background-color: rgb(190, 181, 166);
+    background-color: rgba(190, 181, 166, 0);
     height: 350px;
     cursor: pointer;
     margin-right: 100%;

@@ -15,7 +15,7 @@ function App(){
 
 
       
-        <ItemListContainer greeting={'Bienvenidos a LG'}/>
+      <ItemListContainer greeting={'Bienvenidos a LG'}/>
         
       
       
