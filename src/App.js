@@ -2,12 +2,14 @@ import './App.css';
 import Navbar from "./componets/Navbar/Navbar";
 import ItemListContainer from "./componets/ItemListContainer/ItemListContainer";
 import ItemCount from './componets/ItemCount/ItemCount';
+import ItemDetailContainer from './componets/ItemDetailContainer/ItemDetailContainer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 
 function App(){
   return(
-    <div className="App">
+    <div>
 
       <Navbar/>
 
@@ -16,7 +18,11 @@ function App(){
         <ItemListContainer greeting={'Bienvenidos a LG'}/>
         
       </section>
-      <ItemCount initial={1}  stock={10} onAdd={(quantity) => console.log('cantidad agregada', quantity)}/>
+      
+      <ItemDetailContainer/>
+
+
+      
       
       
       

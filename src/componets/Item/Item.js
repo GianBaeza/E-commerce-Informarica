@@ -32,7 +32,7 @@ const item = ({id, name, img, price, stock, description}) =>{
 
                     <div className='Info3'>
 
-                        <button className='Option'>Detalles </button>
+                        <button className='Option'>  Detalles </button>
 
                     
                     </div>
