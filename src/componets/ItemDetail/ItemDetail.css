@@ -35,8 +35,8 @@
 
 
 .ImgDetail{
-    background-color: rgba(190, 181, 166, 0);
-    height: 300px;
+    background-color: rgb(190, 181, 166);
+    height: 350px;
     cursor: pointer;
     margin-right: 100%;
     margin-top: 110px;
@@ -58,7 +58,7 @@
    width: 400px;
    padding: 10px;
    margin-left: 200px;
-   margin-top: 100px;
+   margin-top: 120px;
    border-radius: 10px;
 
 }
