@@ -14,10 +14,10 @@ function App(){
       <Navbar/>
 
 
-      <section className='Section1'>
+      
         <ItemListContainer greeting={'Bienvenidos a LG'}/>
         
-      </section>
+      
       
       <ItemDetailContainer/>
 
