@@ -89,22 +89,24 @@ header{
 }
 
 .Info3{
-    font-family: 'Ysabeau Office', sans-serif;
+    width:200;
+    background-color: rgba(0, 255, 255, 0);
     margin: auto;
     display: grid;
     
 
 }
 .Option{
-    background-color: rgba(6, 15, 43, 0.342);
+    background-color: rgba(193, 201, 226, 0.692);
     width: 70px;
     height: 25px;
-    margin: auto;
+    padding: 2px;
+    margin-left: 115px;
     border-radius: 10px;
-    border-color: black;
-    border-top: none;
-    color: rgb(0, 0, 0);
     cursor: pointer;
+    font-size: 20px;
+    color: black;
+
     
     
     

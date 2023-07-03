@@ -2,6 +2,7 @@
 import CarritoIcons from "./CarritoIcons";
 import logo from "./Img/GB-1.png";
 import "./Navbar.css";
+import { Link, NavLink } from "react-router-dom";
 
 
 
@@ -12,74 +13,24 @@ function Navbar(){
    
     return(
         
-        <header className="NavContainer">
+        <nav className="NavBar">
 
-            <nav className="Nav">
+            <Link to= '/'>
+             <a className="Logo" to="/"><img src={logo}  alt="logo"/></a>
+            </Link>
 
-                <div className="divlogo">
+            <div className="Categories">
 
-                    <a className="Logo" href="#"><img src={logo} className="logo" alt="logo"/></a>
+               <Link to= {`/category/Mouse`} className=  {({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Mouse</Link>
+               <Link to= {`/category/Teclado`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Teclado</Link>
+               <Link to= {`/category/Monitor`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Monitor</Link>
 
-                </div>
-
-                <ul className="NavList">
-                    
-                    <li className="NavList">
-
-                        <a className=" List" href="#">Inicio</a>
-
-                    </li>
-                    <li className="NavList">
-
-                        <a className=" List" href="#">Contacto</a>
-
-                    </li>
-                    <li className="NavList">
-
-
-                        <div className="dropdown">
-                         <a className="List" href="#">Productos</a>
-                            <div className="dropdown-content">
-                               <ul>
-                                   <li className="NavList">
-
-                                       <a className= "List" href="#">Teclados</a>
-
-                                   </li>
-
-                                   <li className="NavList">
-                                       <a className= "List" href="#">Mouse</a>
-
-                                   </li>
-
-                                   <li className="NavList">
-
-                                       <a className= "List" href="#">Monitor</a>
-
-
-                                   </li>
+            </div>
+            <CarritoIcons/>
+                
+        </nav>
+           
         
-                               </ul>
-                            </div>
-                       </div>                       
-
-                                                    
-                    </li>                         
-                    
-                    <li className="NavList">
-
-                        <a className=" List" href="#"><CarritoIcons/></a>
-
-                    </li>
-                    
-                        
-            
-                </ul>
-
-
-            </nav>
-
-        </header>
     )
         
 

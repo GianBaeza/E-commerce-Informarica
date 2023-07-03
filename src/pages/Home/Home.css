@@ -1,0 +1,21 @@
+.CHome{
+    background-image: url(./img/wallpaperbetter.com_3840x2160.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.H1Home{
+    color: aliceblue;
+    text-align: center;
+    padding: 60px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 40px;
+
+}
+
+.pHome{
+    color: aliceblue;
+    text-align: left;
+    padding: 20px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
+}

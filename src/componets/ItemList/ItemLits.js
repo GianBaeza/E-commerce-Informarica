@@ -4,17 +4,17 @@ import './ItemList.css'
 
 
 
-const ItemList = ({products}) =>{
+const ItemList = ({products}) => {
+
+    if (!Array.isArray(products)) {
+        return <div className='h2M'>No encontrado</div>;
+    }
+
     return(
         <div className='ListGroup'>
-            <h2 className='h2M'> Mouse </h2>
-
-
-            <section className='Group'> 
-
-                {products.map(prod => <Item key={prod.id} {...prod}/>)}
-            </section>
-
+            
+            {products.map(prod => <Item key={prod.id} {...prod}/>)}
+            
         </div>
     )
 }

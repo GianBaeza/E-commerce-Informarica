@@ -1,15 +1,14 @@
 .CardDetail{
     background: rgba(8, 86, 180, 0.808);
-    height: 400px;
+    height: 600px;
     width: 100%;
-    margin-top: 500px;
     background-color: rgba(0, 255, 255, 0);
 
     
 }
 
 .Detail{
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-color: #778c9e;
     display: flex;
@@ -81,5 +80,26 @@
     margin-top: 200px;
     margin-left: 10px;
 
+}
+
+.Volver{
+    background-color: rgba(135, 176, 224, 0);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    
+
+
+}
+.VButto{
+    background-color: #778c9e;
+}
+.V{
+    background-color: rgba(110, 184, 184, 0.795);
+    padding: 8px;
+    border-radius: 5px;
+    border-top: none;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
 }
 

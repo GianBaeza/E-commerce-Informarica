@@ -1,104 +1,42 @@
-.NavContainer {
-    background-color: #778c9e;
-    padding: 20px;
-    height: 60px;
-    font-family: 'Geologica', sans-serif;
-    
-  }
-  
-  .Nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .divlogo{
-    margin-bottom: 70px;
-  }
-  
-  .Logo img {
-    background-color: #33333300;
-    height: 150px;
-    margin-top:0,5px;
-    position: absolute;
-	  text-align:center;
-    
-    
-  }
-  
-  
-  .NavList {
-    list-style: none;
-    display: flex;
-    align-items: center;
-  }
-  
-  .NavList li {
-    margin: 0 10px;
-  }
-  
-  .NavList a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  .NavList a:hover {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    background-color: #778c9e;
-    border-radius: 10px;
-    display: block;
-    overflow: none;
-    
-  }
-  
-  .dropdown-content ul {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .dropdown-content li {
-    padding: 10px;
-  }
-  
-  .dropdown-content a {
-    color: #333;
-    text-decoration: none;
-    
-  }
-  .dropdown-content a:hover {
-    color: #fffdfd;
-    text-decoration: none;
-    
-  }
-  
-  .List {
-    display: block;
-    padding: 10px;
-  }
-  
-  .CarritoIcons {
-    /* Estilos para el icono del carrito */
-  }
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
 
+.NavBar a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  font-family: 'Belanosima', sans-serif;
+}
 
+.NavBar a:hover {
+  color: #ccc;
+}
 
+.Logo img {
+  background-color: #33333300;
+  height: 150px;
+  margin-top:0,5px;
+  position: absolute;
+  text-align:center;
+  
+  
+}
+.Categories {
+  display: flex;
+}
 
- 
+.Option {
+  margin-right: 1rem;
+}
+
+.ActiveOption {
+  margin-right: 1rem;
+  font-weight: bold;
+}
