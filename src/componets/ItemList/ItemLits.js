@@ -7,7 +7,7 @@ import './ItemList.css'
 const ItemList = ({products}) => {
 
     if (!Array.isArray(products)) {
-        return <div className='h2M'>No encontrado</div>;
+        return <div className='h2M'>SIN STOCK HATA  LA 3 PRE ENTREGA </div>;
     }
 
     return(
