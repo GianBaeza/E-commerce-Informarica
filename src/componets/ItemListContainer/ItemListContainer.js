@@ -9,22 +9,19 @@ const ItemListContainer = ({greeting}) => {
        
     const [products, setProducts] = useState([]);
     const {categoryId} = useParams()
-    
 
-
-    useEffect(() => {
-         const asyncFunc = categoryId ? getProductsByCategory(categoryId) : getProducts
+    useEffect(() =>{
+        const asyncFunc = categoryId ? getProductsByCategory(categoryId)  : getProducts(products)
 
         asyncFunc
-            .then(response => {
-                setProducts(response)
-            })
-            .catch(error => {
-                console.error(error)
-            })
-
-    }, [categoryId])
-
+        .then(response =>{
+            setProducts(response)
+        })
+        .catch(error =>{
+            console.error(error)
+        })
+            
+    }, [categoryId]);
 
     return(
         <div className="Title-S">

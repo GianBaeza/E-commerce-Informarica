@@ -95,10 +95,10 @@ export const getProductById = (productId) => {
 
 export const getProductsByCategory = (productsCategory) => {
 
-    return new Promise ((resolve)=> {
+    return new Promise ((resolve) => {
         setTimeout(() => {
-            let prodfilter = products.filter(prod => prod.category === productsCategory)
-            resolve(prodfilter)
+            let prodFilter = products.filter(prod => prod.category === productsCategory)
+            resolve(prodFilter)
         }, 500);
     })
 }
