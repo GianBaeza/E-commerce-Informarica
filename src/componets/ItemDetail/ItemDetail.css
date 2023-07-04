@@ -1,8 +1,9 @@
 .CardDetail{
-    background: rgba(8, 86, 180, 0.808);
+    background: rgba(8, 85, 180, 0.911);
     height: 600px;
     width: 100%;
     background-color: rgba(0, 255, 255, 0);
+    
 
     
 }
@@ -12,6 +13,7 @@
     width: 100%;
     background-color: #778c9e;
     display: flex;
+    
     
 }
 

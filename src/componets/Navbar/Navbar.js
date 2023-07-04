@@ -15,15 +15,15 @@ function Navbar(){
         
         <nav className="NavBar">
 
-            <Link to= '/'>
-             <a className="Logo" to="/"><img src={logo}  alt="logo"/></a>
+            <Link to='/' className="Logo">
+              <img src={logo}  alt="logo" className="Logo"/>
             </Link>
 
-            <div className="Categories">
+            <div className='Categories'>
 
-               <Link to= {`/category/Mouse`} className=  {({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Mouse</Link>
-               <Link to= {`/category/Teclado`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Teclado</Link>
-               <Link to= {`/category/Monitor`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Monitor</Link>
+               <NavLink to= {`/category/Mouse`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Mouse</NavLink>
+               <NavLink to= {`/category/Teclado`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Teclado</NavLink>
+               <NavLink to= {`/category/Monitor`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Monitor</NavLink>
 
             </div>
             <CarritoIcons/>

@@ -4,8 +4,10 @@ import Navbar from "./componets/Navbar/Navbar";
 import ItemListContainer from "./componets/ItemListContainer/ItemListContainer";
 import ItemCount from './componets/ItemCount/ItemCount';
 import ItemDetailContainer from './componets/ItemDetailContainer/ItemDetailContainer';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes,Link } from 'react-router-dom';
 import Home from './pages/Home/Home';
+
+
 
 
 
@@ -19,10 +21,10 @@ function App(){
         <Navbar/>
 
         <Routes>
-          <Route path = '/' element= {<Home/>}/>
-          <Route path = '/category/Mouse' element= {<ItemListContainer/>}/>
-          <Route path = '/category/:categoryId' element={<ItemListContainer/>}/>
-          <Route path = '/Item/:itemId' element ={<ItemDetailContainer/>}/>
+          
+          <Route path = '/' element= {<ItemListContainer />}/>
+          <Route path = '/category/:categoryId' element={<ItemListContainer />}/>
+          <Route path = '/Item/:itemId' element ={<ItemDetailContainer />}/>
           <Route path = '*' element={<Error/>} />
            
         </Routes>
