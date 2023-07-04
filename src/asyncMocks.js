@@ -32,9 +32,20 @@ const products = [
 
     },
 
-
     {
         id:'4',
+        name: 'Mouse Pro Wireless',
+        price: 48.399,
+        category: 'Mouse',
+        img: 'https://i.postimg.cc/vZjcZSxD/158874-1200-1200.png',
+        stock: 6,
+        description:'Logitech G colaboró con más de 50 jugadores profesionales para decidir la forma, el peso y la sensación perfectos para combinarlos con nuestras tecnologías LIGHTSPEED'
+
+    },
+
+
+    {
+        id:'5',
         name: 'Mechanical Mini',
         price: 93.999,
         category: 'Teclado',
@@ -44,7 +55,19 @@ const products = [
     },
 
     {
-        id:'5',
+        id:'6',
+        name: 'K8935 TKL',
+        price: 32.999,
+        category: 'Teclado',
+        img: 'https://i.postimg.cc/Rhng2Ytf/157858-1200-1200.png',
+        stock: 7,
+        description:'Teclado mecánico de aluminio con cable K835 TKL <br> Idioma: Español <br>Switch Blue'
+
+
+    },
+
+    {
+        id:'7',
         name: 'Pro X Clicky',
         price: 74.599,
         category: 'Teclado',
@@ -54,13 +77,55 @@ const products = [
     },
 
     {
-        id:'6',
+        id:'8',
         name: 'G Pro',
         price: 71.199,
         category: 'Teclado',
         img: 'https://i.postimg.cc/mk8tkc3y/157662-1200-1200.png',
         stock: 3,
         description:'Logitech G PRO Mechanical Gaming Keyboard - Idioma: Ingles.',
+    },
+
+    {
+        id:'9',
+        name: 'TUF Gaming',
+        price: 140.000,
+        category: 'Monitor',
+        img: 'https://i.postimg.cc/d1W0gHFq/w692.png',
+        stock: 3,
+        description: 'Monitor para juegos Full HD (1920 x 1080) de 23.8 pulgadas con frecuencia de actualización ultrarrápida de 165 Hz diseñado para jugadores profesionales y juegos inmersivos.'
+    },
+
+    {
+        id:'10',
+        name: 'Monitor curvo',
+        price: 200.000,
+        category: 'Monitor',
+        img: 'https://i.postimg.cc/5tr43HS0/w692.png',
+        stock: 3,
+        description:'Monitor de juegos curvo WFHD (2560 x 1080) 1500R de 29.5 pulgadas con frecuencia de actualización ultrarrápida de 200Hz diseñado para jugadores profesionales y juegos inmersivos. '
+    },
+
+    {
+
+        id:'11',
+        name: 'ASUS VP349CGL',
+        price: 220.000,
+        category: 'Monitor',
+        img: 'https://i.postimg.cc/vHGs5Lwh/w692.png',
+        stock: 9,
+        description: 'Pantalla ultra ancha de 21: 9 3440 x 1440 IPS con ángulo de visión amplio de 178° con un diseño de borde a borde sin marco para una experiencia cinematográfica impecable y una productividad mejorada.'
+    },
+
+    {
+        id:'12',
+        name: 'ZAKU II',
+        price: 250.000,
+        category: 'Monitor',
+        img: 'https://i.postimg.cc/d1W0gHFq/w692.png',
+        stock: 5,
+        description:'ASUS TUF Gaming VG27AQGL1A ZAKU II EDITION cuenta con un panel IPS WQHD (2560 x 1440) de 27 pulgadas que ofrece una asombrosa relación de contraste de 1,000: 1 e imágenes superiores, con colores sobresalientes en el 130% de la gama sRGB y certificación DisplayHDR™ 400.'
+
     }
 
 
