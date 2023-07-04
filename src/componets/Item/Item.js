@@ -5,7 +5,7 @@ import './Item.css'
 
 // Que es lo que la card va a mostrar
 
-const item = ({id, name, img, price, stock,}) =>{
+const item = ({id, name, img, price, stock, category}) =>{
     return(
 
         <article className='CardItem'>
@@ -32,6 +32,7 @@ const item = ({id, name, img, price, stock,}) =>{
                     </p>
 
                     <div className='Info3'>
+                        
                         <Link to={`/item/${id}`} className= 'Option'> Detalles</Link>
 
                     </div>

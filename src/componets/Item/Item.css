@@ -1,10 +1,10 @@
 .CardItem{
     background: rgba(24, 50, 82, 0);
-    height: 300px;
+    height: 570px;
     width: 300px;
-    float: left;
-    padding: 50px;
-    margin-left: 180px;
+     float: left;
+    padding: 10px;
+    margin-left: 150px;
     
 
     
@@ -17,8 +17,8 @@
     float: left;
     padding: 10px auto;
     border-radius: 20px;
-
     
+
 
     
 

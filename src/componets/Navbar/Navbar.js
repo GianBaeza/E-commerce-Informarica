@@ -19,11 +19,11 @@ function Navbar(){
               <img src={logo}  alt="logo" className="Logo"/>
             </Link>
 
-            <div className='Categories'>
+            <div className="Categories">
 
-               <NavLink to= {`/category/Mouse`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Mouse</NavLink>
-               <NavLink to= {`/category/Teclado`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Teclado</NavLink>
-               <NavLink to= {`/category/Monitor`} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Monitor</NavLink>
+               <NavLink to= {`/category/Mouse`} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Mouse</NavLink>
+               <NavLink to= {`/category/Teclado`} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Teclado</NavLink>
+               <NavLink to= {`/category/Monitor`} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Monitor</NavLink>
 
             </div>
             <CarritoIcons/>
