@@ -66,7 +66,7 @@ const products = [
 
 
 
-]
+];
 
 
 export const getProducts = () => {
@@ -97,8 +97,8 @@ export const getProductsByCategory = (productsCategory) => {
 
     return new Promise ((resolve)=> {
         setTimeout(() => {
-            
-            resolve(products.find(prod => prod.category === productsCategory))
+            let prodfilter = products.filter(prod => prod.category === productsCategory)
+            resolve(prodfilter)
         }, 500);
     })
 }
