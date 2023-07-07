@@ -4,7 +4,7 @@ const products = [
         name: 'G PRO X Superlight',
         price: 73.099,
         category: 'Mouse',
-        img:'https://i.postimg.cc/vT1jrQ0H/Imagen-1.png',
+        img:'https://i.postimg.cc/vT1jrQ0H/Imagen-1.png ',
         stock: 4,
         description: 'El nuevo favorito de los mejores profesionales de esports pesa menos de 63 gramos y se desliza sin apenas fricción. PRO X SUPERLIGHT hace gala de nuestra tecnología de diseño ZERØ OPOSICIÓN, nuestro propósito de eliminar obstáculos y crear una conexión lo más pura posible entre el jugador y el juego.'
 
@@ -89,7 +89,7 @@ const products = [
     {
         id:'9',
         name: 'TUF Gaming',
-        price: 140.000,
+        price: 140.999,
         category: 'Monitor',
         img: 'https://i.postimg.cc/d1W0gHFq/w692.png',
         stock: 3,

@@ -19,7 +19,7 @@ const item = ({id, name, img, price, stock, category}) =>{
                     </h2>
                 </header>
                 <picture>
-                    <img src= {img} alt= {name} className='ItemImg'></img>
+                   <Link to={`/item/${id}`}> <img src= {img} alt= {name} className='ItemImg'></img></Link>
                 </picture>
 
                 <section className='ItemInfo'>

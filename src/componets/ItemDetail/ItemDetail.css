@@ -56,9 +56,9 @@
 
 .SeccionInfo{
    height: 300px;
-   background-color: rgba(143, 149, 155, 0.541);
+   background-color: rgba(113, 122, 131, 0.541);
    width: 400px;
-   padding: 10px;
+   padding: 20px auto;
    margin-left: 200px;
    margin-top: 120px;
    border-radius: 10px;

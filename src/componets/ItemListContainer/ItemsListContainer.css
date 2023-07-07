@@ -1,16 +1,29 @@
 .Title-S{
     width: 100%;
+    height: 100vh;
     font-size: 30px;
     text-align: center;
-    color: rgb(250, 250, 250);
     
     
    
 }
 .Title{
+    background-color: rgba(0, 255, 255, 0);
+    height: 50px;
     color: black;
-    padding: 20px ;
+    padding: 50px;
+    padding-top: 30px;
     margin: auto;
-    font-family: 'Geologica', sans-serif;
+    font-size: 40px;
+    font-family: 'Belanosima', sans-serif;
      
 }
+
+.Subtitle{
+    width: 100%;
+    height:40px;
+    color: black;
+}
+
+
+
