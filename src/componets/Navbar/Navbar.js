@@ -1,4 +1,5 @@
 //import
+import { Loading } from "../Loading/Loading";
 import CarritoIcons from "./CarritoIcons";
 import logo from "./Img/GB-1.png";
 import "./Navbar.css";
@@ -20,11 +21,13 @@ function Navbar(){
             </Link>
 
             <div className="Categories">
+                
 
                <NavLink to= {`/`} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Home</NavLink>
                <NavLink to= {`/category/Mouse`} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Mouse</NavLink>
                <NavLink to= {`/category/Teclado`} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Teclado</NavLink>
                <NavLink to= {`/category/Monitor`} className={({isActive}) => isActive ? "ActiveOption" : "Option"}>Monitor</NavLink>
+               
 
             </div>
             <CarritoIcons/>
