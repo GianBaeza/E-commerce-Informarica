@@ -99,7 +99,7 @@ const products = [
     {
         id:'10',
         name: 'Monitor curvo',
-        price: 200.000,
+        price: 90.999,
         category: 'Monitor',
         img: 'https://i.postimg.cc/5tr43HS0/w692.png',
         stock: 3,
@@ -110,7 +110,7 @@ const products = [
 
         id:'11',
         name: 'ASUS VP349CGL',
-        price: 220.000,
+        price: 220.999,
         category: 'Monitor',
         img: 'https://i.postimg.cc/vHGs5Lwh/w692.png',
         stock: 9,
@@ -120,7 +120,7 @@ const products = [
     {
         id:'12',
         name: 'ZAKU II',
-        price: 250.000,
+        price: 122.999,
         category: 'Monitor',
         img: 'https://i.postimg.cc/d1W0gHFq/w692.png',
         stock: 5,
