@@ -46,3 +46,18 @@
     background-color: white;
   }
   
+  .containerH1{
+    background-color: rgba(0, 255, 255, 0);
+   
+    
+  }
+  .Hhome{
+    background-color: rgba(83, 81, 81, 0.267);
+    width: 20%;
+    padding: 5px;
+    border-radius: 20px;
+    color: black;
+    margin: auto;
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+  }
