@@ -17,6 +17,7 @@
   padding-top: 30px;
   font-family: 'Belanosima', sans-serif;
   font-size: 25px;
+  
 }
 
 .NavBar a:hover {
@@ -36,9 +37,7 @@
   
   
 }
-.Categories {
-  display: flex;
-}
+
 
 .Option {
   margin-right: 1rem;
@@ -47,4 +46,6 @@
 .ActiveOption {
   margin-right: 1rem;
   font-weight: bold;
+  transition: none;
 }
+

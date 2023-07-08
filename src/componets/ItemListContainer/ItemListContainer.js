@@ -3,7 +3,7 @@ import'./ItemsListContainer.css';
 import ItemList from '../ItemList/ItemLits';
 import { getProducts , getProductsByCategory } from '../../asyncMocks';
 import { useParams } from 'react-router-dom';
-import { Carousel } from '../Carousel/Carousel';
+import { Carousel } from '../../pages/Home/Carousel/Carousel';
 
 
 

@@ -1,4 +1,4 @@
-  import { Carousel } from '../../componets/Carousel/Carousel'
+  import { Carousel } from './Carousel/Carousel'
 import ItemDetailContainer from '../../componets/ItemDetailContainer/ItemDetailContainer'
 import ItemListContainer from '../../componets/ItemListContainer/ItemListContainer'
 import './Home.css'
