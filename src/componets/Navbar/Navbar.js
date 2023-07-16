@@ -1,6 +1,6 @@
 //import
 import { Loading } from "../Loading/Loading";
-import CarritoIcons from "./CarritoIcons";
+import CartWidget from "../CartWidget/CartWidget";
 import logo from "./Img/GB-1.png";
 import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
@@ -30,7 +30,7 @@ function Navbar(){
                
 
             </div>
-            <CarritoIcons/>
+            <CartWidget/>
                 
         </nav>
            

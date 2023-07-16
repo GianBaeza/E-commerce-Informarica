@@ -1,6 +1,6 @@
 .NavBar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #000000;
   height: 100px;
@@ -17,35 +17,38 @@
   padding-top: 30px;
   font-family: 'Belanosima', sans-serif;
   font-size: 25px;
-  
 }
 
 .NavBar a:hover {
   color: #646464f1;
-  
 }
 
-
+.Categories {
+  width: 100%;
+  background-color: #fffefe00;
+  text-align: center;
+}
 
 .Logo img {
   background-color: #d4161600;
   height: 100px;
-  text-align:center;
+  text-align: center;
   padding-left: 40px;
   position: relative;
   bottom: 50px;
-  
-  
 }
 
-
 .Option {
-  margin-right: 1rem;
+  margin-left: 20px;
 }
 
 .ActiveOption {
-  margin-right: 1rem;
+  margin-left: 20px;
   font-weight: bold;
   transition: none;
 }
 
+.ActiveOption:hover {
+  transform: none;
+  transition: none;
+}

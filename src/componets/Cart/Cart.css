@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Belanosima', sans-serif;
+    background-color: #0097b29d;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.containerH1 {
+    background-color: rgba(0, 255, 255, 0);
+    width: 100%;
+    height: 20vh;
+    font-size: 40px;
+    color: rgb(53, 51, 51);
+    padding-top: 50px;
+    
+}
+
+.OptionP{
+    background-color: rgba(127, 255, 212, 0);
+    height: 60px;
+    font-size: 30px;
+    color: #0097b2;
+  
+    
+  
+}
+
+
+
+.container2 {
+    padding: 20px;
+}
+
+.container-total{
+    width: 100%;
+    height: 200px;
+    background-color: #0097b200;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+}
+.finalizarCompra{
+    background-color: #0097b2a6;
+    font-size: 20px;
+    border-radius:10px ;
+    padding: 5px;
+}

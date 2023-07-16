@@ -1,6 +1,7 @@
 import { createContext} from "react";
 import { useState } from "react";
 import React from "react";
+import { act } from "react-dom/test-utils";
 
 
 
@@ -10,28 +11,25 @@ const CartContext = createContext();
 export default CartContext;
 
 
-
-
-
-
 export function CartProvider ({ children }){
     
 
     const [cart, setCart] = useState([])
+    console.log(cart)
 
-    console.log(cart);
+   
 
-    const addItem = (item, quantity) => {
-        if (!isInCart (item.id)) {
-            setCart(prev => [...prev, { ...item, quantity }])
+    const addProducts = (products, quantity) => {
+        if (!isInCart (products.id)) {
+            setCart(prev => [...prev, { ...products, quantity }])
 
         } else {
             console.error('agregado')
         }
     }
 
-    const removeItem = (itemId) =>{
-        const cartUpdated = cart.filter(prod => prod.id !== itemId)
+    const removeProducts = (id) => {
+        const cartUpdated = cart.filter(products => products.id !== id)
         setCart(cartUpdated)
     }
 
@@ -40,11 +38,27 @@ export function CartProvider ({ children }){
     }
 
     const isInCart = (itemId) =>{
-        return cart.some(prod => prod.id === itemId)
+        return cart.some(products => products.id === itemId)
     }
 
+    const totalPrice = () =>{
+        return cart.reduce((prev, act) => prev + act.quantity * act.price, 0);
+    }
+
+
+    const totalQuantity = ()=>cart. reduce((acumulador, productsActual)=> acumulador + productsActual.quantity, 0);
+
+    
     return(
-        <CartContext.Provider value ={{ cart, addItem, removeItem, clearCart}}>
+        <CartContext.Provider value ={{
+            addProducts,
+            removeProducts,
+            clearCart,
+            totalQuantity,
+            totalPrice,
+            cart
+                
+            }}>
             { children }
         </CartContext.Provider>
     )

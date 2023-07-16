@@ -1,0 +1,31 @@
+.CartWidget {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right:60px;
+  }
+  
+  .CartWidget.hasItems .CartCounter {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+  }
+  
+  .CartWidget i {
+    width: 90px;
+    height: 30px;
+    font-size: 24px;
+    display: flex;
+  }
+  
+  .CartWidget:hover {
+    text-decoration: none;
+    color: #000;
+  }
+  
