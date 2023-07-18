@@ -10,7 +10,7 @@ import './Cart.css'
 
 
 const Cart = () => {
-    const { cart, totalQuantity, totalPrice } = useContext(CartContext);
+    const { cart, totalQuantity, totalPrice, clearCart } = useContext(CartContext);
 
 
     if (totalQuantity() === 0) {
@@ -31,7 +31,12 @@ const Cart = () => {
                 <p className='Total'>
                     Total: {totalPrice()}
                 </p>
+                <div className='ButtonD'>
                 <button className='finalizarCompra'> Finalizar Compra </button>
+                <button className='vaciarCarrito' onClick={() => clearCart()}> Vaciar carrito </button>
+
+                </div>
+                
             </div>
             
 

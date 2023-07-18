@@ -43,9 +43,25 @@
     text-align: center;
     font-family: 'Belanosima', sans-serif;
 }
+.ButtonD{
+   background-color: #0097b200;
+   width: 100%;
+  
+}
+
 .finalizarCompra{
+    background-color: #6c89a396;
+    font-size: 20px;
+    border-radius:10px ;
+    padding: 5px;
+    margin-right: 20px;
+    
+    
+}
+.vaciarCarrito{
     background-color: #6c89a3a8;
     font-size: 20px;
     border-radius:10px ;
     padding: 5px;
+
 }

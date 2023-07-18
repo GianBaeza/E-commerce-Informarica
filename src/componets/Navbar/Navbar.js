@@ -1,5 +1,4 @@
 //import
-import { Loading } from "../Loading/Loading";
 import CartWidget from "../CartWidget/CartWidget";
 import logo from "./Img/GB-1.png";
 import "./Navbar.css";

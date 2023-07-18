@@ -1,9 +1,8 @@
 
 import { Link } from 'react-router-dom';
-import ItemCount from '../ItemCount/ItemCount';
 import './Item.css'
 
-// Que es lo que la card va a mostrar
+
 
 const item = ({id, name, img, price, stock, category}) =>{
     return(

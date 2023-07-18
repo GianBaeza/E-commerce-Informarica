@@ -1,0 +1,17 @@
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.HomeCarrusel {
+  margin-bottom: 20px;
+}
+
+.ProductContainer {
+  flex-grow: 1;
+}
+

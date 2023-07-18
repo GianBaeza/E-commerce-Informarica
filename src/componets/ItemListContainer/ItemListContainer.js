@@ -47,7 +47,7 @@ const ItemListContainer = ({ greeting }) => {
 
 
 
-            <section >
+            <section className='TitleContainer'>
                 <ItemList products={products} />
 
             </section>

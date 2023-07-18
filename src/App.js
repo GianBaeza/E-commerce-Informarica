@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes, } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import { CartProvider } from './componets/Context/CartContext';
 import Cart from './componets/Cart/Cart';
-import { Footer } from './componets/foter/Footer';
+import Footer from './componets/footer/Footer';
 
 
 
@@ -22,7 +22,7 @@ import { Footer } from './componets/foter/Footer';
 
 function App() {
   return (
-    <div className='App'>
+    
 
       <BrowserRouter>
 
@@ -40,6 +40,8 @@ function App() {
             <Route path="*" element={<Error />} />
 
           </Routes>
+
+          <Footer/>
           
           
          
@@ -54,12 +56,6 @@ function App() {
       </BrowserRouter>
 
 
-
-
-
-
-
-    </div>
 
 
   )

@@ -15,7 +15,7 @@ export function CartProvider ({ children }){
     
 
     const [cart, setCart] = useState([])
-    console.log(cart)
+    
 
    
 

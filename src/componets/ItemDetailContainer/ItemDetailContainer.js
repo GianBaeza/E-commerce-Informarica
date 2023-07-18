@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react"
-import {getProductById} from '../../asyncMocks'
-import ItemDetail from "../ItemDetail/ItemDetail"
-import { useParams } from "react-router-dom"
-import { getDoc, doc } from "firebase/firestore"
-import {db} from '../../firebase/Config'
+import { useEffect, useState } from "react";
+import ItemDetail from "../ItemDetail/ItemDetail";
+import { useParams } from "react-router-dom";
+import { getDoc, doc } from "firebase/firestore";
+import {db} from '../../firebase/Config';
+
+
 
 
 
@@ -46,4 +47,4 @@ const ItemDetailContainer = () =>{
 
 }
 
-export default ItemDetailContainer
+export default ItemDetailContainer;

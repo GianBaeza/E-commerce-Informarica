@@ -5,7 +5,7 @@ const ItemCount = ({stock, initial, onAdd})=> {
 
     const [quantity, setQuantity] = useState(initial)
 
-    //Incremento//
+    
     const increment =()=>{
         
         if(quantity < stock){
@@ -13,7 +13,7 @@ const ItemCount = ({stock, initial, onAdd})=> {
         }
     }
 
-    //Decrementar//
+    
 
     const decrement = ()=>{
 
@@ -26,7 +26,7 @@ const ItemCount = ({stock, initial, onAdd})=> {
 
 
     return(
-        //Button incrementar y decrementar el producto//
+        
         <div className="Counter">
 
             <div className="Controls">
@@ -55,5 +55,3 @@ const ItemCount = ({stock, initial, onAdd})=> {
 }
 
 export default ItemCount;
-//Agregar al carrito// 
-////si no hay stock no se ejecura, por eso la validacion de stock//

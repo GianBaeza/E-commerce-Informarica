@@ -18,6 +18,10 @@
     font-family: 'Belanosima', sans-serif;
      
 }
+.TitleContainer{
+    width: 100%;
+    height: 100vh;
+}
 
 .Subtitle{
     width: 100%;
