@@ -1,6 +1,6 @@
 const products = [
     {
-        id :'1',
+        id : '1',
         name: 'G PRO X Superlight',
         price: 73.099,
         category: 'Mouse',
