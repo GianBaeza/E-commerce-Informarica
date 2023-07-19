@@ -7,7 +7,7 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <footer className="Footer">
+    <div className="Footer">
      
         <h3 className='b'>© 2022GB™</h3>
       
@@ -18,6 +18,6 @@ export default function Footer() {
         <Link to='https://github.com/Chi4n'> <img className= 'a' src='https://i.postimg.cc/GpsnfRYd/foldergreygit-93078.png'/></Link>
       
       </div>
-    </footer>
+    </div>
   );
 }

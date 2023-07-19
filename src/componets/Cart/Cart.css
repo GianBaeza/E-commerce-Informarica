@@ -33,6 +33,9 @@
 
 .container2 {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-total{
@@ -44,24 +47,38 @@
     font-family: 'Belanosima', sans-serif;
 }
 .ButtonD{
-   background-color: #0097b200;
-   width: 100%;
+    background-color: #0097b200;
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    
+   
   
 }
-
-.finalizarCompra{
+.containerCheckout{
     background-color: #6c89a396;
+    height: 50px;
     font-size: 20px;
-    border-radius:10px ;
-    padding: 5px;
-    margin-right: 20px;
+    border-radius:10px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.c{
+    text-decoration: none;
+    color: black;
+    
     
     
 }
-.vaciarCarrito{
-    background-color: #6c89a3a8;
+.ca{
+   
+    background-color: #6c89a396;
+    height: 50px;
     font-size: 20px;
     border-radius:10px ;
     padding: 5px;
+    text-decoration: none;
 
 }

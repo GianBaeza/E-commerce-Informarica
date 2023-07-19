@@ -1,0 +1,71 @@
+
+.ContainerCheck {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 20%;
+    background-color: #f8f8f8;
+    
+}
+
+
+.CheckoutH1 {
+    font-size: 36px;
+    color: #007bff;
+   
+    margin-bottom: 20px;
+}
+
+
+.FromCheck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+   
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.LabelCheck {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333333;
+   
+}
+
+
+.InputCheck {
+    width: 250px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    
+    border-radius: 5px;
+}
+
+
+.ButtonCheck {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    
+}
+
+
+.ButtonCheck:hover {
+    background-color: #0056b3;
+    
+}
