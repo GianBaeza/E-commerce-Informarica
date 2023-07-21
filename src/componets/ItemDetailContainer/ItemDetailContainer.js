@@ -11,7 +11,7 @@ import {db} from '../../firebase/Config';
 
 const ItemDetailContainer = () =>{
     const [product, setProduct] = useState(null)
-    const [loading, setLoading] = useState(true)
+    
     
     const {itemId} = useParams()
 
@@ -19,17 +19,14 @@ const ItemDetailContainer = () =>{
         const docRef = doc(db, 'products', itemId)
 
         getDoc(docRef)
-        .then(response =>{
-            const data = response.data()
-            const productAdapted = {id: response.id, ...data}
-            setProduct(productAdapted)
+        .then((response) =>{
+            setProduct(
+                {...response.data(), id: response.id}
+            );
+
+            
         })
-        .catch(error=>{
-            console.log(error)
-        })
-        .finally(()=>{
-            setLoading(false)
-        })
+       
 
       
     }, [itemId])

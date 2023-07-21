@@ -57,8 +57,17 @@ const ItemDetail = ({id, name, img, category, description, price, stock}) =>{
                              Descripcion: {description}
                         
                         </p>
+                        <p className="InfoDD">
+                        
+                           Stock: {stock}
+                    
+                        </p>
+            
+                       
+
 
                         <p className="InfoDD">
+                        
                             Precio ${price}
                         
                         </p>

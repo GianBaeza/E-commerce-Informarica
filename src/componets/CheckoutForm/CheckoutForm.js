@@ -1,67 +1,79 @@
-import { useState } from "react"
-import './CheckoutForm.css';
-import { addDoc, collection, getFirestore } from "firebase/firestore";
+import { useState } from "react";
+import "./CheckoutForm.css";
+import { useContext } from "react";
+import CartContext from "../Context/CartContext";
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "../../firebase/Config";
+import { Formik, Form, Field } from "formik";
 
 
 
+const CheckoutForm = () => {
+    const { cart, totalPrice, clearCart } = useContext(CartContext);
 
+    const [orderId, setOrderId] = useState("");
 
-const CheckoutForm = ({ onConfirm }) =>{
-    const [name, setName]= useState('')
-    const [phone, setPhone]= useState('')
-    const [email, setEmail]= useState('')
+    const comprar = (data) => {
+        const order = {
+            cliente: data,
+            products: cart,
+            total: totalPrice(),
+        };
 
-    const handleConfirm = (event)=>{
-        event.preventDefault()
+        const orderRef = collection(db, "orders");
 
-        const userData ={
-            name, phone,email
-        }
-        onConfirm(userData)
+        addDoc(orderRef, order).then((doc) => {
+            setOrderId(doc.id);
+            clearCart();
+        });
+    };
+
+    if (orderId) {
+        return (
+            <div className="OrdenGenerada">
+                <h1 className="OrdenGeneradah1"> Muchas gracias por tu compra </h1>
+                <p className=""> Numero de pedido es : {orderId} </p>
+            </div>
+        );
     }
 
-    
 
-    return(
+
+
+
+
+    return (
         <div className="ContainerCheck">
-
             <div className="H1 Check">
-
-            <h1 className="CheckoutH1"> Checkout </h1>
-
+                <h1 className="CheckoutH1"> Checkout </h1>
             </div>
-            <form onSubmit={handleConfirm} className="FromCheck">
+            <Formik
+                initialValues={{ nombre: "", telefono: "", mail: '' }}
+                onSubmit={(values) => comprar(values)}
 
-    
-
-                <label className="LabelCheck">
-                     Nombre
-                    <input className="InputCheck" type="text" value={name} onChange={({target})=> setName(target.value)}/>
-                    
-                    
-                </label>
-                <label className="LabelCheck">
-                     Telefono
-                    <input className="InputCheck" type="text" value={phone} onChange={({target})=> setPhone(target.value)}/>
-                    
-                    
-                </label>
-                <label className="LabelCheck">
-                     Email
-                    <input className="InputCheck" type="email" value={email} onChange={({target})=> setEmail(target.value)}/>
-                    
-                    
-                </label>
-                <div className="LabelCheck">
-
-                    <button type="submit" className="ButtonCheck" > Generar orden </button>
-
-                </div>
-
-            </form>
+            >
+                <Form className="FromCheck">
+                    <label className="LabelCheck">
+                        Nombre
+                        <Field className="InputCheck" type="text" name="nombre" />
+                    </label>
+                    <label className="LabelCheck">
+                        Telefono
+                        <Field className="InputCheck" type="text" name="telefono" />
+                    </label>
+                    <label className="LabelCheck">
+                        Email
+                        <Field className="InputCheck" type="email" name="mail" />
+                    </label>
+                    <div className="LabelCheck">
+                        <button type="submit" className="ButtonCheck">
+                            Generar orden
+                        </button>
+                    </div>
+                </Form>
+            </Formik>
         </div>
-    )
-
-}
+    );
+};
 
 export default CheckoutForm;

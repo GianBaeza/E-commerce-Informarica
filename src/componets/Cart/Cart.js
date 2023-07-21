@@ -35,7 +35,7 @@ const Cart = () => {
                     
                     <div className='containerCheckout'>
 
-                    <Link to='/checkout' className='c'> Finalizar Compra </Link>
+                    <Link to='/checkoutForm' className='c'> Finalizar Compra </Link>
 
                     </div>
                     <div className='containerCa'>

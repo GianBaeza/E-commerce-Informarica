@@ -4,7 +4,7 @@ import './Item.css'
 
 
 
-const item = ({id, name, img, price, stock, category}) =>{
+const item = ({id, name, img, price, stock}) =>{
     return(
 
         <article className='CardItem'>

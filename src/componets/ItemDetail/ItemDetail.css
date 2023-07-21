@@ -57,7 +57,7 @@
 .SeccionInfo{
    height: 300px;
    background-color: rgba(113, 122, 131, 0.541);
-   width: 400px;
+   width: 500px;
    padding: 20px auto;
    margin-left: 200px;
    margin-top: 120px;
@@ -67,7 +67,7 @@
 .InfoDD{
     font-size:25px;
     font-family: 'Belanosima', sans-serif;
-    padding: 10px;
+    padding: 5px;
 
 }
 .InfoD{
@@ -77,6 +77,7 @@
     text-align: center;
     overflow: hidden;
     font-size: 18px;
+    
    
     
     
@@ -91,8 +92,9 @@
 }
 
 .Volver{
-    background-color: rgba(135, 176, 224, 0);
+    background-color: rgba(24, 117, 223, 0);
     width: 100%;
+    height: 100px;
     text-align: center;
     padding: 5px;
     
@@ -101,6 +103,7 @@
 }
 .VButto{
     background-color: #778c9e;
+    
 }
 .V{
     background-color: rgba(110, 184, 184, 0.795);
@@ -109,5 +112,6 @@
     border-top: none;
     font-family: 'Belanosima', sans-serif;
     font-size: 20px;
+    height: 50px;
 }
 

@@ -7,8 +7,8 @@ import { BrowserRouter, Route, Routes, } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import { CartProvider } from './componets/Context/CartContext';
 import Cart from './componets/Cart/Cart';
-import Footer from './componets/footer/Footer';
-import Checkout from './componets/Checkout.js/Checkout';
+import CheckoutForm from './componets/CheckoutForm/CheckoutForm';
+
 
 
 
@@ -38,12 +38,12 @@ function App() {
             <Route path="/category/:categoryId" element={<ItemListContainer />} />
             <Route path="/Item/:itemId" element={<ItemDetailContainer />} />
             <Route path='/cart' element={<Cart/>}/>
-            <Route path='/checkout' element={<Checkout/>}/>
+            <Route path='/checkoutForm' element={<CheckoutForm/>}/>
             <Route path="*" element={<Error />} />
 
           </Routes>
 
-          <Footer/>
+        
           
           
          

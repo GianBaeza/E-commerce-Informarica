@@ -1,4 +1,4 @@
-const products = [
+const p = [
     {
         id : '1',
         name: 'G PRO X Superlight',
