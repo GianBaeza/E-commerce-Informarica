@@ -13,7 +13,7 @@
 .CheckoutH1 {
     font-size: 36px;
     color: #007bff;
-
+    font-family: 'Belanosima', sans-serif;
     margin-bottom: 20px;
 }
 
@@ -60,6 +60,7 @@
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    font-family: 'Belanosima', sans-serif;
 
 }
 
