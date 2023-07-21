@@ -13,7 +13,7 @@ const CheckoutForm = () => {
     const { cart, totalPrice, clearCart } = useContext(CartContext);
 
     const [orderId, setOrderId] = useState("");
-   
+
 
     const comprar = (data) => {
         const order = {
@@ -41,14 +41,14 @@ const CheckoutForm = () => {
     const validateEmail = (value) => {
         let error;
         if (!value) {
-          error = 'El correo electrónico es obligatorio';
+            error = 'El correo electrónico es obligatorio';
         } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(value)) {
-          error = 'Correo electrónico inválido';
+            error = 'Correo electrónico inválido';
         }
         return error;
     }
 
-   
+
 
 
 
